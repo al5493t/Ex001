@@ -25,11 +25,12 @@
             android:layout_weight="40" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn"
+            android:onClick="change"
             android:layout_width="match_parent"
             android:layout_height="0px"
             android:layout_weight="20"
-            android:text="Button" />
+            android:text="Click me" />
 
         <Space
             android:layout_width="match_parent"
